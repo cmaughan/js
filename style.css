@@ -1,0 +1,33 @@
+* {
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  background: #000;
+}
+
+#main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  background: #000;
+  margin-left:-200px;
+  margin-top:-200px;
+}
+
+#maintext {
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  position: absolute;
+  bottom: -75px;
+  transition: color 0.2s;
+  line-height: 1.5;
+}
+
+.highlight {
+  outline: 4px solid red;
+}
+
