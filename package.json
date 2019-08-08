@@ -2,10 +2,10 @@
   "name": "js",
   "version": "1.0.0",
   "description": "\"# js\"",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "budo script.js:bundle.js -o"
+    "start" : "budo index.js:bundle.js -o --live"
   },
   "repository": {
     "type": "git",
